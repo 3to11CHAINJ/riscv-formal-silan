@@ -1,3 +1,4 @@
 oss-cad-suite.tar.gz filter=lfs diff=lfs merge=lfs -text
 python39.tar.gz filter=lfs diff=lfs merge=lfs -text
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
+formal.tar.gz filter=lfs diff=lfs merge=lfs -text
