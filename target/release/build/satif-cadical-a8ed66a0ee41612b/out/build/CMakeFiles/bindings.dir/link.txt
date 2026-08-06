@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbindings.a CMakeFiles/bindings.dir/binding.cpp.o
+/usr/bin/ranlib libbindings.a

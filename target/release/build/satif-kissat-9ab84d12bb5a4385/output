@@ -1,0 +1,113 @@
+cargo:rerun-if-changed=./kissat
+configure: new build directory 'build'
+configure: compiler 'clang  -W -Wall -O3 -DNDEBUG -fPIC'
+configure: linker 'clang' (no additional options)
+configure: using default 'ar' (no cross compilation)
+configure: no 'tissat' binary generated (without '--test')
+configure: no 'libkissat.so' shared library generated (without '-shared')
+configure: no 'kitten' binary generated (without '--kitten')
+configure: linking src/makefile
+make[1]: Entering directory `/home/ibex/dv/formal/aig-manip/target/release/build/satif-kissat-9ab84d12bb5a4385/out/kissat'
+make -C "/home/ibex/dv/formal/aig-manip/target/release/build/satif-kissat-9ab84d12bb5a4385/out/kissat/build"
+make[2]: Entering directory `/home/ibex/dv/formal/aig-manip/target/release/build/satif-kissat-9ab84d12bb5a4385/out/kissat/build'
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/allocate.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/analyze.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/ands.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/arena.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/assign.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/averages.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/backbone.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/backtrack.c
+../scripts/generate-build-header.sh > build.h
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/bump.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/check.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/classify.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/clause.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/collect.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/colors.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/compact.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/config.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/congruence.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/decide.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/deduce.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/definition.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/dense.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/dump.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/eliminate.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/equivalences.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/error.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/extend.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/factor.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/fastel.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/file.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/flags.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/format.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/forward.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/gates.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/heap.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/ifthenelse.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/import.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/internal.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/kimits.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/kitten.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/krite.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/learn.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/logging.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/lucky.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/minimize.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/mode.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/options.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/phases.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/preprocess.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/print.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/probe.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/profile.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/promote.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/proof.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/propbeyond.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/propdense.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/propinitially.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/proprobe.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/propsearch.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/queue.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/reduce.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/reluctant.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/reorder.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/rephase.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/report.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/resize.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/resolve.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/resources.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/restart.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/search.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/shrink.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/smooth.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/sort.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/stack.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/statistics.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/strengthen.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/substitute.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/sweep.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/terminate.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/tiers.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/trail.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/transitive.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/utilities.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/vector.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/vivify.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/walk.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/warmup.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/watch.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/weaken.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/main.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/application.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/handle.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/parse.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -c ../src/witness.c
+clang -W -Wall -O3 -DNDEBUG -fPIC -I../build -c ../src/build.c
+ar rc libkissat.a allocate.o analyze.o ands.o arena.o assign.o averages.o backbone.o backtrack.o build.o bump.o check.o classify.o clause.o collect.o colors.o compact.o config.o congruence.o decide.o deduce.o definition.o dense.o dump.o eliminate.o equivalences.o error.o extend.o factor.o fastel.o file.o flags.o format.o forward.o gates.o heap.o ifthenelse.o import.o internal.o kimits.o kitten.o krite.o learn.o logging.o lucky.o minimize.o mode.o options.o phases.o preprocess.o print.o probe.o profile.o promote.o proof.o propbeyond.o propdense.o propinitially.o proprobe.o propsearch.o queue.o reduce.o reluctant.o reorder.o rephase.o report.o resize.o resolve.o resources.o restart.o search.o shrink.o smooth.o sort.o stack.o statistics.o strengthen.o substitute.o sweep.o terminate.o tiers.o trail.o transitive.o utilities.o vector.o vivify.o walk.o warmup.o watch.o weaken.o
+clang -o kissat main.o application.o handle.o parse.o witness.o libkissat.a -lm
+make[2]: Leaving directory `/home/ibex/dv/formal/aig-manip/target/release/build/satif-kissat-9ab84d12bb5a4385/out/kissat/build'
+make[1]: Leaving directory `/home/ibex/dv/formal/aig-manip/target/release/build/satif-kissat-9ab84d12bb5a4385/out/kissat'
+cargo:rustc-link-search=native=/home/ibex/dv/formal/aig-manip/target/release/build/satif-kissat-9ab84d12bb5a4385/out/kissat/build
+cargo:rustc-link-lib=static=kissat
